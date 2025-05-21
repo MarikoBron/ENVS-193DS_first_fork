@@ -22,6 +22,8 @@ library(ggeffects) # generating model predictions
 library(gtsummary) # generating summary tables for models
 library(flextable)
 library(broom.helpers)
+library(lterdatasampler)
+data(pie_crab)
 
 # abalone data from Hamilton et al. 2022
 abalone <- read_xlsx(here("data", "Abalone IMTA_growth and pH.xlsx"))
